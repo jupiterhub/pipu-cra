@@ -36,5 +36,10 @@
       }
     ]
   },
-  "ignorePatterns": ["tailwind.config.js", "*.chunk.js", "main.*js"]
+  "ignorePatterns": [
+    "tailwind.config.js",
+    "*.chunk.js",
+    "main.*js",
+    "index.css"
+  ]
 }

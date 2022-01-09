@@ -5,7 +5,7 @@ interface HelloWorldProps {
 }
 
 const HelloWorld = ({ name }: HelloWorldProps) => (
-  <div>{`Hello "${name}"`}</div>
+  <div className="text-9xl font-bold text-red-500">{`Hello "${name}"`}</div>
 );
 
 export default HelloWorld;
