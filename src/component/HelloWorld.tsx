@@ -1,12 +1,15 @@
 import React from "react";
 
 export interface HelloWorldProps {
-    name: string;
+  name: string;
 }
 
-export const HelloWorld = ({ name } :HelloWorldProps) => (
-  <div>
-    {`Hello "${name}"`}
+export const HelloWorld = ({ name }: HelloWorldProps) => (
+  <div>{`Hello "${name}"`}
+  
+  
+  
+  
   </div>
 );
 
